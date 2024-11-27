@@ -1,0 +1,6 @@
+[Unit]
+Description=Get Metrics 
+After=systemd-user-sessions.service
+[Service]
+Type=simple
+ExecStart=/$HOME/Templates/script.sh

@@ -1,0 +1,5 @@
+/* Defines a cleaner look for tables */
+table  { border-collapse: collapse; font-family: Verdana; position: center; }
+  td, th { border: 1px solid #FFACAC; padding: 5px 10px; }
+  th     { background: #880000; color: white; text-transform: capitalize; }
+  tr:nth-child(even){background-color:#F7DFEA;}
